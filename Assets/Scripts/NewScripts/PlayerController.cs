@@ -97,7 +97,9 @@ public class PlayerController : MonoBehaviour
    
     }
 
-    private void FixedUpdate()
+
+
+    private void Update()
     {
         
         var hitObject = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius,layerMask:groundLayerMask);
